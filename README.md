@@ -13,7 +13,9 @@ Data Preprocessing
 Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why? I chose to have 50 neurons in the input layer, as there were 47 different features in the scaled data dataframe. I had two hidden layers, each with 30 neurons because they were 2/3 the number of neurons in the input layer. This idea came from a Medium article linked here: https://medium.com/geekculture/introduction-to-neural-network-2f8b8221fbd3#:~:text=The%20number%20of%20hidden%20neurons,size%20of%20the%20input%20layer.
+
 Were you able to achieve the target model performance? Yes. The initial model ran at around 72% accuracy, while the optimized model ran at 78% accuracy. 
+
 What steps did you take in your attempts to increase model performance?
 The steps taken are as follows:
 * Include the NAME column from the original data set. This in itself made a large difference in the accuracy of the model, though only the organizations who have applied more than ten times were included.
